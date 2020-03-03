@@ -1,27 +1,27 @@
 @echo off
 
 REM Create Symbolic Link
-    mklink /d "C:\ProgramData\Windows Kits" "B:\ProgramData\Windows Kits" 
-    mklink /d "C:\Program Files\Common Files\Windows Kits" "B:\Program Files\Common Files\Windows Kits" 
-    mklink /d "C:\Program Files (x86)\Common Files\Windows Kits" "B:\Program Files (x86)\Common Files\Windows Kits" 
-    mklink /d "C:\Program Files (x86)\Windows Kits" "B:\Program Files (x86)\Windows Kits"
-    mklink /d "C:\Program Files\Windows Kits" "B:\Program Files\Windows Kits"
+    mklink /d "C:\ProgramData\Thunder Network" "B:\ProgramData\Thunder Network" 
+    mklink /d "C:\Program Files\Common Files\Thunder Network" "B:\Program Files\Common Files\Thunder Network" 
+    mklink /d "C:\Program Files (x86)\Common Files\Thunder Network" "B:\Program Files (x86)\Common Files\Thunder Network" 
+    mklink /d "C:\Program Files (x86)\Thunder Network" "B:\Program Files (x86)\Thunder Network"
+    mklink /d "C:\Program Files\Thunder Network" "B:\Program Files\Thunder Network"
     
-    mklink /d "C:\Users\matth\AppData\Local\Windows Kits" "B:\Users\AppData\Local\Windows Kits"
-    mklink /d "C:\Users\matth\AppData\Local\Programs\Windows Kits" "B:\Users\AppData\Local\Programs\Windows Kits"
-    mklink /d "C:\Users\matth\AppData\Roaming\Windows Kits" "B:\Users\AppData\Roaming\Windows Kits"
-    mklink /d "C:\Users\matth\AppData\LocalLow\Windows Kits" "B:\Users\AppData\LocalLow\Windows Kits" 
+    mklink /d "C:\Users\matth\AppData\Local\Thunder Network" "B:\Users\AppData\Local\Thunder Network"
+    mklink /d "C:\Users\matth\AppData\Local\Programs\Thunder Network" "B:\Users\AppData\Local\Programs\Thunder Network"
+    mklink /d "C:\Users\matth\AppData\Roaming\Thunder Network" "B:\Users\AppData\Roaming\Thunder Network"
+    mklink /d "C:\Users\matth\AppData\LocalLow\Thunder Network" "B:\Users\AppData\LocalLow\Thunder Network" 
 
 REM Directory Folder
-    mkdir "B:\ProgramData\  Windows Kits" 
-    mkdir "B:\Program Files\Common Files\Windows Kits" 
-    mkdir "B:\Program Files (x86)\Common Files\Windows Kits" 
-    mkdir "B:\Program Files (x86)\Windows Kits"
-    mkdir "B:\Program Files\Windows Kits"
+    mkdir "B:\ProgramData\  Thunder Network" 
+    mkdir "B:\Program Files\Common Files\Thunder Network" 
+    mkdir "B:\Program Files (x86)\Common Files\Thunder Network" 
+    mkdir "B:\Program Files (x86)\Thunder Network"
+    mkdir "B:\Program Files\Thunder Network"
 
-    mkdir "B:\Users\AppData\Local\Windows Kits"
-    mkdir "B:\Users\AppData\Local\Programs\Windows Kits"
-    mkdir "B:\Users\AppData\Roaming\Windows Kits"
-    mkdir "B:\Users\AppData\LocalLow\Windows Kits" 
+    mkdir "B:\Users\AppData\Local\Thunder Network"
+    mkdir "B:\Users\AppData\Local\Programs\Thunder Network"
+    mkdir "B:\Users\AppData\Roaming\Thunder Network"
+    mkdir "B:\Users\AppData\LocalLow\Thunder Network" 
 
 pause
