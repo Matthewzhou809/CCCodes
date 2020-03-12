@@ -8,7 +8,8 @@ import webbrowser
 import os
 import smtplib
 
-url = 'www.youtube.com'
+url = 'http://docs.python.org/'
+chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 # Windows
 engine = pyttsx3.init('sapi5')
@@ -82,13 +83,13 @@ if __name__ == "__main__":
             speak(results)
 
         elif 'open youtube' in query:
-            webbrowser.open_new_tab("youtube.com")
+            webbrowser.get(chrome_path).open('youtube.com')
 
         elif 'open google' in query:
-            webbrowser.open("google.com")
+            webbrowser.get(chrome_path).open("google.com")
 
         elif 'open stackoverflow' in query:
-            webbrowser.open("stackoverflow.com")
+            webbrowser.get(chrome_path).open("stackoverflow.com")
 
         elif 'play music' in query:
             music_dir = 'D:\\Non Critical\\songs\\Favorite Songs2'
