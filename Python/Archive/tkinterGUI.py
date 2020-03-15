@@ -1,3 +1,5 @@
+# Documentation for tkinter GUI https://likegeeks.com/python-gui-examples-tkinter-tutorial/#Create-your-first-GUI-application
+# https://htmlcolorcodes.com/
 import tkinter as tk
 import requests
 
