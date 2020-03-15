@@ -3,6 +3,7 @@
 using namespace std;
 
 int N = 500;
+int P1 = 3, P2= 5;
 
 int main()
 {
@@ -10,22 +11,16 @@ int main()
     cin >> N;
     for (int i = 1; i <= N; i++)
     {
-        if (i % 3 == 0)
+        if (i % P1 == 0)
         {
             cout << "Fizz";
-            if (i % 5 == 0)
-            {
+            if (i % P2 == 0)
                 cout << "Buzz";
-            }
         }
-        else if (i % 5 == 0)
-        {
+        else if (i % P2 == 0)
             cout << "Buzz";
-        }
-        else if (i % 5 != 0 && i % 3 != 0)
-        {
+        else if (i % P2 != 0 && i % P1 != 0)
             cout << i;
-        }
         cout << endl;
     }
     return 0;
