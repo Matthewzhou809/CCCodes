@@ -2,16 +2,11 @@
 #include <cmath>
 
 const int count = 50;
-
-int summ(int t)
-{
-    
-}
+bool again = true;
+int long long bt[count], input, temp, result;
 
 int main()
 {
-    bool again = true;
-    int long long bt[count], input, temp, result;
     //initialization
     for (size_t i = 0; i < count; i++)
     {
@@ -36,7 +31,5 @@ int main()
         solution:
             std::cout << "The depth " << result << " distance away from the root";
     }
-
-
     return 0;
 }
