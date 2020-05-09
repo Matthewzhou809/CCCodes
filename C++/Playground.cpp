@@ -10,7 +10,7 @@ int main()
     //initialize points
     for (size_t i = 0; i < cap; i++)
     {
-        arr[i][i] = ;
+        arr[i][i] = 1;
     }
     
 
