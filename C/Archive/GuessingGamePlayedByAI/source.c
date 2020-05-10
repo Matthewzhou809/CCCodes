@@ -110,7 +110,6 @@ int isCorrect(int g, int a)
 solve(int temp)
 {
 	int answer;
-	
 	if (temp == 0)
 		answer = round(NUM / 2);
 	else if (b == 0)
