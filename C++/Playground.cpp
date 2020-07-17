@@ -2,25 +2,25 @@
 #include <cmath>
 // Calvulate Pie
 
-const int cap = 8;
-double temp, curp, arr[cap][cap], result;
+const int count = 1000;
 
 int main()
 {
     //initialize points
-    for (size_t i = 0; i < cap; i++)
+    srand(time(NULL));
+    int b, gg = 0;
+    int temp;
+    for (size_t i = 0; i < count; i++)
     {
-        arr[i][i] = 1;
+        while (1 == temp = rand() % 2)
+        {
+            if (temp == 1)
+                b++ else
+                {
+                    gg++l
+                }
+        }
     }
-    
 
-    for (size_t i = 0; i < cap; i++)
-    {
-        curp = 
-        temp = sqrt(pow(cos(curp), 2) + pow(sin(curp), 2));
-        result += temp;
-    }
-    
-    
     return 0;
 }
