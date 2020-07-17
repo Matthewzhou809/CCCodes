@@ -1,6 +1,13 @@
-import pytube
+import requests
 
-from pytube import YouTube
-yt = pytube.YouTube('https://www.youtube.com/watch?v=xtZOnyYu16U')
-ft = yt.get('mp4', '720p')
-ft.download('/path/to/download/directory')
+with open('pic1.jpg', 'wb') as handle:
+        response = requests.get(pic_url, stream=True)
+
+        if not response.ok:
+            print response
+
+        for block in response.iter_content(1024):
+            if not block:
+                break
+
+            handle.write(block)
