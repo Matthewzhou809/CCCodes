@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 #include <cmath>
 // Calvulate Pie
 
@@ -12,15 +13,15 @@ int main()
     int temp;
     for (size_t i = 0; i < count; i++)
     {
-        while (1 == temp = rand() % 2)
+        while (temp = rand() % 2 == 1)
         {
             if (temp == 1)
-                b++ else
-                {
-                    gg++l
+                b++;
+                else{
+                    gg++;
                 }
         }
     }
-
+    std::cout << b << "\n" << gg;
     return 0;
 }
