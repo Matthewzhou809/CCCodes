@@ -10,10 +10,10 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "B:/Root/Mingw/bin/g++.exe",
+            "compilerPath": "B:/Root/Mingw/bin/cpp.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "${default}"
         }
     ],
     "version": 4
