@@ -17,11 +17,26 @@ int main()
         {
             if (temp == 1)
                 b++;
-                else{
-                    gg++;
-                }
+            else
+            {
+                gg++;
+            }
         }
     }
-    std::cout << b << "\n" << gg;
+
+    std::cout << b << "\n"
+              << gg;
+
+    system("pause");
+
+    inline void wait_on_enter()
+    {
+        std::string dummy;
+        std::cout << "Enter to continue..." << std::endl;
+        std::getline(std::cin, dummy);
+    }
+
+    std::cout << "\n";
+
     return 0;
 }
