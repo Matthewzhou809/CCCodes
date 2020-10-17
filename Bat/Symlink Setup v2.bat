@@ -1,16 +1,19 @@
 @For %%G In (
 
     "Adobe"
+    "Aliwangwang"
     "Baidu"
     "Battle.net"
     "Black Tree Gaming Ltd"
     "Blender Foundation"
     "Blizzard Entertainment"
     "Bridge"
+    "CELSYS"
     "Cheat Engine 7.0"
     "Cheat Engine"
     "Cygwin"
     "Discord"
+    "Eclipse"
     "Epic Games"
     "Everything"
     "Forge"
@@ -18,6 +21,7 @@
     "iZotope"
     "JAM Software"
     "Java"
+    "JetBrains"
     "Maxon Cinema 4D R21"
     "Minecraft Launcher"
     "Mozilla Firefox"
@@ -31,6 +35,7 @@
     "Sublime Text 3"
     "Tencent"
     "Ubisoft"
+    "VMware"
     "Zoom"
 
 ) Do @For %%H In (
